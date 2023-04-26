@@ -1,0 +1,182 @@
+body {
+	font-family: 'Changa', sans-serif;
+	background-color: black;
+}
+
+h1, h2, h3 {
+	padding: 0% 2%;
+	color: rgb(0,255,255);
+	font-size: 250%;
+	font-weight: 700;
+	text-shadow:0px 0px 10px black;
+}
+
+h2 {
+	font-size: 400%;
+}
+
+h3 {
+	font-size: 200%;
+	font-weight: 400;
+}
+
+p {
+	padding: 2%;
+	color: white;
+	font-size: 200%;
+	font-weight: 100;
+}
+
+a {
+	text-decoration-line: none;
+	color: white;
+	font-weight:100;
+	font-size: 100%;
+}
+
+a:hover {
+	color: rgb(0,255,255);
+	text-shadow:0px 0px 2px black;
+}
+
+.menu {
+	padding: 2%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.row {
+	background-image: linear-gradient( rgb(20,30,30), rgb(20,20,20));
+}
+
+.fila-2, .fila-3, .fila-4, .fila-5 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+
+.fila-3 a, .fila-4 a, .fila-5 a{
+	padding-left: 2%;
+}
+
+.fila-3 h2{
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.diapos {
+	width: 50%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.diapos img {
+	width: 100%;
+}
+
+.piezas {
+	width: 75%;
+
+}
+
+.descargas {
+	padding-top: 10%;
+}
+
+#invisible {
+	opacity: 0;
+	font-size: 0px;
+}
+
+a h3:hover {
+	color: white;
+}
+
+form {
+	padding: 0% 2%;
+}
+
+form p {
+	padding: 0;
+}
+
+input {
+	background-color: rgb(10, 15, 15);
+	color: white;
+	border-color: cyan;
+}
+
+input:focus {
+	background-color: rgb(5, 10, 10);
+}
+
+textarea {
+	resize: none;
+	margin-top: 2%;
+	background-color: rgb(10, 15, 15);
+	color: white;
+	border-color: cyan;
+}
+
+form button {
+	margin-top: 5%;
+	padding: 1%;
+	font-size: 100%;
+	background-color: rgb(0,255,255);
+	border: solid black 1px ;
+}
+
+form button:hover {
+	background-color: rgb(10, 15, 15);
+	border: solid cyan 1px;
+	color: cyan;
+}
+
+.footer {
+	background-color: rgb(10, 15, 15);
+	padding: 5%;
+	text-align: center;
+	font-size: 75%;
+}
+
+.fa {
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.logo {
+	padding-top: 0px;
+	animation-name: logo;
+	animation-duration: 1s;
+}
+
+@keyframes logo {
+  from {padding-top: 500px;}
+  to {padding-top: 0px;}
+}
+
+.escala {
+	width: 70%;
+	animation-name: escala;
+	animation-duration: 1s; 
+}
+
+@keyframes escala {
+	from {width: 60%;}
+	to {width: 70%;}
+}
+
+.hexa {
+	padding: 10%;
+	width: 90%;
+	animation-name: hexa;
+	animation-duration: 1s; 
+}
+
+@keyframes hexa {
+	from {width: 0%; padding: 0%;}
+	to {width: 90%; padding: 10%;}
+}
